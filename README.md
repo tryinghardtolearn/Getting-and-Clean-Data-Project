@@ -12,3 +12,4 @@ The major steps are Merge Datasets, Extraction of Mean and Standard Deviation Co
 <b>Extraction</b>: used grep() and regular expression to search for measurements on mean and standard deviation.  
 <b>Descriptive Names</b>: applied gsub() and regular expression to replace abbreviations with more descriptive names. 
 <b>Comupate Averages</b>: used aggregate() to compute average for each variable, group by activity and subject.
+ 
