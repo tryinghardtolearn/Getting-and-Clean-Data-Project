@@ -3,7 +3,7 @@
 First of all, the script reads the final result into a variable called "review". The following are two ways of running the script. 
 
 1. It is recommended to open the script in R Studio because the View ()function makes it easier to look at the data set. 
-2. Alternatively, if you use R Console, it can be ran by using the Source () function, where arguement for the source function is the address of where the script is located plus the file name ("run_analysis.R"). For example: source("/Users/sam/Downloads/run_analysis.R")
+2. Alternatively, if you use R Console, it can be ran by using the Source () function, where arguement for the source function is the address of where the script is located plus the file name ("run_analysis.R"). For example, I stored the file in the Downloads directory, and I can use this: source("/Users/sam/Downloads/run_analysis.R"), to load the script.
 
 ## Analysis
 The major steps are Merge Datasets, Extraction of Mean and Standard Deviation Columns, Apply Descriptive Names, and Compute Averages.
