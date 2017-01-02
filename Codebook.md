@@ -44,7 +44,7 @@ In summary, a prefix of Time or Frequency indicates the measurement domain (i.e.
 [34] "Average of TimeBodyAccelerationMagnitude-std()"          
 [35] "Average of TimeGravityAccelerationMagnitude-mean()"      
 [36] "Average of TimeGravityAccelerationMagnitude-std()"       
-[37] "Average of TimeBodyAccelerationJerkMagnitude-mean()"     
+[37] "Average of TimeBodyAccelerationJerkMagnitude-mean()"      
 [38] "Average of TimeBodyAccelerationJerkMagnitude-std()"      
 [39] "Average of TimeBodyGyroMagnitude-mean()"                 
 [40] "Average of TimeBodyGyroMagnitude-std()"                  
