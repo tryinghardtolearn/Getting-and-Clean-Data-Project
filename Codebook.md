@@ -2,13 +2,13 @@
 ## Activity Name and Subject Code 
 Activity name, such as Walking and Standing, describes the activity that a feature relates to.
 Subject Code is the code of the person on whom the measurement was conducted on.
-Each person (subject) generates many measurements for a feature of an activity.
- [1] "ActivityName"                                             
- [2] "SubjectCode"  
+Each person (subject) generates many measurements for a feature of an activity, and an average of each feature will be computed for every pair of activity and subject.  
+[1] "ActivityName"                                               
+[2] "SubjectCode"  
 ## Average of measurements for each activty and subject
 The following is a snapshot of the features included in the tidy dataset. They are the averages of the original features computed for each activity and subject. For the meaning of the original features, please consult the original codebook included at the bottom of this page.
 
-In summary, a prefix of Time or Frequency indicates that the measurement domain (i.e. measurement over variable time or frequency). An accelerometer was used to measure the linear acceleration("Acceleration"), and gyroscope measured the angular velocity("Gyro") on the X-Y-Z axes. Furthermore, each of the Acceleration and Gyro measurement is decomposed into body and gravity components. mean() and std() are the mean and standard deviation of the signals in each sample window.
+In summary, a prefix of Time or Frequency indicates the measurement domain (i.e. measurement over variable time or frequency). An accelerometer was used to measure the linear acceleration("Acceleration"), and gyroscope measured the angular velocity("Gyro") on the X-Y-Z axes. Also, each of the Acceleration and Gyro measurement is decomposed into body and gravity components.  Furthermore, the magnitude of these triaxial signals were calculated using the Euclidean norm. Jerk was computed by taking derivative against time. Finally, mean() and std() are the mean and standard deviation of the signals in each sample window.
 
  [3] "Average of TimeBodyAcceleration-mean()-X"                
  [4] "Average of TimeBodyAcceleration-mean()-Y"                
